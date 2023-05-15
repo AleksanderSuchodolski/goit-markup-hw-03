@@ -30,20 +30,34 @@
   color: var(--color-slate);
   background-color: var(--color-white);
 }
-.header-contact {
-  font-style: normal;
-  color: var(--color-slate);
-}
-.header-contact:hover,
-.header-contact:focus {
-  color: var(--color-ocean);
-}
+
 /* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .logo-link {
   font-family: var(--secondary-font);
@@ -53,6 +67,7 @@
   color: var(--color-iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-link-cloud {
   color: var(--color-cloud);
@@ -106,6 +121,7 @@
   text-align: center;
   color: var(--color-navy-blue);
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .subtitle {
   font-size: 20px;
@@ -127,10 +143,14 @@
 }
 .p-text-slate {
   color: var(--color-slate);
+  padding-top: 8px;
 }
 .p-text-cloud {
   color: var(--color-cloud);
   background-color: var(--color-navy-blue);
+  width: 264px;
+  height: 72px;
+  padding-top: 16px;
 }
 .small-text {
   font-size: 12px;
@@ -142,14 +162,88 @@
   text-decoration: none;
   text-transform: none;
 }
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+.header-contact {
+  font-style: normal;
+  color: var(--color-slate);
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--color-ocean);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-cornflower);
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-contact-list {
+  margin-left: 332px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
 /**
   |============================
   | Hero styles
   |============================
 */
+.hero-title {
+  padding: 188px 313px 48px 313px;
+}
+.hero-container {
+  align-items: center;
+  text-align: center;
+}
 .hero-section {
   background-color: var(--color-navy-blue);
+}
+.hero-btn {
+  margin-bottom: 188px;
+}
+/**
+  |============================
+  | Abaut styles
+  |============================
+*/
+.abaut-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.abaut-list {
+  display: flex;
+  gap: 24px;
+}
+.abaut-item {
+  width: 264px;
+  height: 104px;
+}
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+.portfolio-title-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 /**
   |============================
@@ -158,9 +252,30 @@
 */
 .team-section {
   background-color: var(--color-cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-section-list {
+  display: flex;
+  gap: 24px;
 }
 .team-title-item {
   background-color: var(--color-white);
+  text-align: center;
+  padding-bottom: 32px;
+}
+.team-title-img {
+  padding-bottom: 32px;
+}
+/**
+  |============================
+  | Filters style
+  |============================
+*/
+.filter-section-list {
+  display: flex;
+  padding: 96px 271px 72px 271px;
+  gap: 24px;
 }
 /**
   |============================
@@ -169,4 +284,6 @@
 */
 .footer {
   background-color: var(--color-navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

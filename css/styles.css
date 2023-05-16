@@ -15,8 +15,11 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
-}
 
+  /* Others */
+  --indent: 24px;
+  --items: 3;
+}
 /**
   |============================
   | Base styles
@@ -161,6 +164,30 @@ img {
   letter-spacing: 0.04em;
   text-decoration: none;
   text-transform: none;
+}
+/**
+  |============================
+  | Card set
+  |============================
+*/
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: var(--indent);
+}
+.card-set-item {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+.card-container {
+  padding-bottom: 120px;
+}
+.card-section-img {
+  padding-bottom: 32px;
+}
+.card-text {
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 /**
   |============================

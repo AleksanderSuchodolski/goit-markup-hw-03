@@ -139,6 +139,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .desc:hover,
 .desc:focus {
@@ -228,10 +230,8 @@ img {
   align-items: center;
   gap: 40px;
 }
-.heder-nav-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
+
 /**
   |============================
   | Hero styles

@@ -194,7 +194,9 @@ img {
   | Header styles
   |============================
 */
-
+.header {
+  border-bottom: 1px solid var(--color-cornflower);
+}
 .header-contact {
   font-style: normal;
   color: var(--color-slate);
@@ -209,8 +211,7 @@ img {
   text-align: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  border: 1px solid var(--color-cornflower);
-  border-top: none;
+
 }
 .header-nav {
   display: flex;

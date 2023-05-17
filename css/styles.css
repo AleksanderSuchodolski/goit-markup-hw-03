@@ -125,7 +125,7 @@ img {
   text-align: center;
   color: var(--color-navy-blue);
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .subtitle {
   font-size: 20px;
@@ -133,7 +133,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .desc {
   font-size: 16px;
@@ -280,10 +280,12 @@ img {
   | Portfolio styles
   |============================
 */
+.portfolio-section {
+  padding-bottom: 120px;
+}
 .portfolio-title-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 /**
   |============================

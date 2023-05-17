@@ -134,6 +134,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin-bottom: 8px;
+  text-align: center;
 }
 .desc {
   font-size: 16px;
@@ -150,6 +151,7 @@ img {
 }
 .p-text-slate {
   color: var(--color-slate);
+  text-align: center;
 }
 .p-text-cloud {
   color: var(--color-cloud);
@@ -304,10 +306,11 @@ img {
 .team-title-item {
   background-color: var(--color-white);
   text-align: center;
-  padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
 }
-.team-title-img {
-  padding-bottom: 32px;
+.team-container {
+  padding: 32px 16px;
+
 }
 /**
   |============================

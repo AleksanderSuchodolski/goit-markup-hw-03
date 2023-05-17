@@ -71,11 +71,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-
+  display: inline-block;
 }
 .logo-link-cloud {
   color: var(--color-cloud);
-  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-link-blue {

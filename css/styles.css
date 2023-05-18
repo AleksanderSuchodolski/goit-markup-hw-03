@@ -174,27 +174,7 @@ img {
   text-decoration: none;
   text-transform: none;
 }
-/**
-  |============================
-  | Card set
-  |============================
-*/
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: var(--indent);
-}
-.card-set-item {
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
-.card-section-img {
-  padding-bottom: 32px;
-}
-.card-text {
-  padding-left: 16px;
-  padding-bottom: 32px;
-}
+
 /**
   |============================
   | Header styles
@@ -326,6 +306,28 @@ padding: 96px 0 120px;
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
+}
+/**
+  |============================
+  | Card set
+  |============================
+*/
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: var(--indent);
+}
+.card-set-item {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+.card-section-img {
+  padding-bottom: 32px;
+}
+.container-card-text {
+  padding-left: 16px;
+  padding-bottom: 32px;
+  border: 1px solid var(--color-cornflower);
 }
 /**
   |============================

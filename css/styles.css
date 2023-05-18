@@ -184,9 +184,6 @@ img {
 .card-set-item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-.card-container {
-  padding-bottom: 120px;
-}
 .card-section-img {
   padding-bottom: 32px;
 }
@@ -317,9 +314,12 @@ img {
   | Filters style
   |============================
 */
+.filter-section {
+padding: 96px 0 120px; 
+}
 .filter-section-list {
   display: flex;
-  padding: 96px 271px 72px 271px;
+  padding: 0 271px 72px 271px;
   gap: 24px;
 }
 /**

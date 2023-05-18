@@ -98,6 +98,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px 12px;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -107,6 +110,7 @@ img {
 .btn-cloud:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 .title {
   font-size: 56px;
@@ -319,7 +323,8 @@ padding: 96px 0 120px;
 }
 .filter-section-list {
   display: flex;
-  padding: 0 271px 72px 271px;
+  justify-content: center;
+  margin-bottom: 72px;
   gap: 24px;
 }
 /**
